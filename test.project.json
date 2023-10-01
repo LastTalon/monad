@@ -1,0 +1,18 @@
+{
+	"name": "monad Test",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Packages": {
+				"$className": "Folder",
+				"monad": {
+					"$path": "lib"
+				}
+			},
+			"tests": {
+				"$path": "tests"
+			}
+		}
+	}
+}

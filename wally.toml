@@ -1,0 +1,27 @@
+[package]
+name = "lasttalon/monad"
+version = "0.1.0"
+description = "A library for working with monads"
+license = "MIT"
+authors = ["Lucas Gangstad <lucas@lasttalon.dev>"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = [
+    "*.spec.lua",
+    "*.dev.lua",
+    "tests",
+    "docs",
+    "aftman.toml",
+    "moonwave.toml",
+    "selene.toml",
+    "stylua.toml",
+    "testez-companion.toml",
+    "sourcemap.json",
+    "test.project.json",
+    "testez.yaml",
+]
+
+[dependencies]
+
+[dev-dependencies]
+TestEZ = "roblox/testez@0.4.1"
